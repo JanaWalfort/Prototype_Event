@@ -3,10 +3,13 @@ import { hot } from 'react-hot-loader/root';
 import React, { PureComponent } from 'react';
 import './App.css';
 
-// Components
+// Components from litfass
 import List from '../myComponents/litfass/List/List';
 import Progressbar from '../myComponents/litfass/ProgressBar/Progressbar';
 import QRCode from '../myComponents/litfass/QRCode/QRCode';
+
+// Components from app
+import AllDonors from '../myComponents/app/AllDonors/AllDonors';
 
 // We use PureComponent instead of Component because it handles the shouldComponentUpdate method for us.
 // If we want to define our own shouldComponentUpdate logic we have to use Component instead of PureComponent.
@@ -23,10 +26,8 @@ class App extends PureComponent {
         // eslint-disable-next-line no-else-return
         } else {
             return (
-                <div className="grid">
-                    <List className="list gridItem"/>
-                    <Progressbar className="progresbar gridItem" />
-                    <QRCode className="qrcode gridItem" />
+                <div>
+                    <AllDonors />
                 </div>
             );
         }
