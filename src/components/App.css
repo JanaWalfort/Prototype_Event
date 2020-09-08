@@ -1,0 +1,35 @@
+.grid {
+    display: grid;
+    margin: 30px;
+
+    grid-template-columns: auto 300px;
+    grid-template-rows: 300px;
+    column-gap: 50px;
+    row-gap: 30px;
+    grid-template-areas: 
+    "list qrcode"
+    "progressbar progressbar";
+
+
+}
+
+.gridItem {
+    border: solid red 15px;
+}
+
+.list {
+    height: 300px;
+
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.progresbar {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.qrcode {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}

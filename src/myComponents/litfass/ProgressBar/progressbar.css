@@ -1,0 +1,13 @@
+.bar {
+    border: solid;
+    border-radius: 12px;
+    width: 80%;
+    margin: 20px auto;
+    z-index: 100;
+}
+
+.progress {
+    width: 75%;
+    padding: 0 0 0 15px;
+    background-color: blue;
+}
