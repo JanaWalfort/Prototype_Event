@@ -1,0 +1,15 @@
+.tvBar {
+    display: flex;
+    align-items: center;
+
+    border: solid 5px #ab9dc7;
+    height: 70px;
+    font-size: 30px;
+}
+
+.tvProgress {
+    padding-left: 30px;
+    height: 100%;
+    width: 75%;
+    background-color: #51338a;
+}

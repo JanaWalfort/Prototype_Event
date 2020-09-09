@@ -1,7 +1,7 @@
 .list {
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 0 0 40px 0;
 
     justify-content: space-between;
 }
@@ -10,25 +10,21 @@
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
-    height: 57px;
+    height: 100px;
 }
 
 #item1 {
-    font-size: 30px;
+    font-size: 60px;
 }
 #item2 {
-    font-size: 27px;
-    padding-left: 15px;
+    font-size: 55px;
 }
 #item3 {
-    font-size: 24px;
-    padding-left: 20px;
+    font-size: 50px;
 }
 #item4 {
-    font-size: 21px;
-    padding-left: 25px;
+    font-size: 45px;
 }
 #item5 {
-    font-size: 18px;
-    padding-left: 30px;
+    font-size: 40px;
 }

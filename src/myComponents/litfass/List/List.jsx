@@ -11,7 +11,7 @@ export default class List extends PureComponent {
                         <p>10 €</p>
                     </div>
                     <div className="listItem" id="item2">
-                        <p>John</p>
+                        <p>Anonym</p>
                         <p>25 €</p>
                     </div>
                     <div className="listItem" id="item3">

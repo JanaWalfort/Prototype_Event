@@ -1,12 +1,12 @@
 /* eslint-disable react/jsx-tag-spacing */
 import React, { PureComponent } from 'react';
 import { ProgressBar } from 'chayns-components/lib';
-import './progressbar.css';
+import './AppProgressbar.css';
 
-export default class Progressbar extends PureComponent {
+export default class AppProgressbar extends PureComponent {
     render() {
         return (
-            <div>
+            <div className="bar">
                 <ProgressBar
                     value={60}
                 >
