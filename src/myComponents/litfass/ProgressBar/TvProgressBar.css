@@ -1,7 +1,7 @@
 .tvBar {
     display: flex;
     align-items: center;
-
+    
     border: solid 5px #ab9dc7;
     height: 70px;
     font-size: 30px;
