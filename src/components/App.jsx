@@ -14,7 +14,7 @@ import TvProgressBar from '../myComponents/litfass/ProgressBar/TvProgressBar';
 import AllDonors from '../myComponents/app/AppDonations/AppDonations';
 import Intro from '../myComponents/app/intro/Intro';
 import Progressbar from '../myComponents/app/ProgressBar/AppProgressbar';
-import Spend from '../myComponents/app/Spend/Spend';
+import Donate from '../myComponents/app/Donate/Donate';
 
 // We use PureComponent instead of Component because it handles the shouldComponentUpdate method for us.
 // If we want to define our own shouldComponentUpdate logic we have to use Component instead of PureComponent.
@@ -38,7 +38,7 @@ class App extends PureComponent {
         } else {
             return (
                 <div className="flexContainer">
-                    <Spend />
+                    <Donate />
                     <Intro className="appIntro" />
                     <Progressbar className="appProgresBar" />
                     <AllDonors className="appList" />
