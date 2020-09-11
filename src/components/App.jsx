@@ -75,7 +75,6 @@ class App extends PureComponent {
                         )
                         : (
                             <div className="box">
-                                <Donate />
                                 <div className="donateButtonDiv">
                                     <Button
                                         type="submit"
