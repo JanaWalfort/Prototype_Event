@@ -1,21 +1,23 @@
 .priceList {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     align-content: center;
 
+    width: 250px;
 }
 
 .priceItem {
     height: 25px;
-    margin: 0 10px 0 0;
+    margin: 10px 10px 0 0;
     width: fit-content;
 }
 
 .anonym {
-    margin-left: 0;
+    margin: 20px 0;
 }
 
 .donateInput{
-    width: 100px;
-    padding: 10px 10px 10px 0;
+    width: 123px;
+    padding: 10px 0 0 0;
 }

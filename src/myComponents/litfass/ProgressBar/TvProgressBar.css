@@ -1,15 +1,20 @@
 .tvBar {
     display: flex;
-    align-items: center;
     
-    border: solid 5px #ab9dc7;
-    height: 70px;
-    font-size: 30px;
+    border: solid 5px #fcbc62;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.milestone {
+    height: 100%;
+    margin-top: 10px;
+    font-size: 40px;
 }
 
 .tvProgress {
     padding-left: 30px;
     height: 100%;
-    width: 75%;
-    background-color: #51338a;
+    width: 60%;
+    background-image: linear-gradient(to bottom right, #350a1b, #ad6431);
 }
